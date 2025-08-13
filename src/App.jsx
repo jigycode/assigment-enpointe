@@ -78,15 +78,6 @@ function HomePage() {
 
                 <tr className="hover:bg-gray-50">
                   <td className="px-6 py-4 text-sm font-medium text-gray-900">
-                    <strong>Code Reusability</strong>
-                  </td>
-                  <td className="px-6 py-4 text-sm text-gray-700">High - Reusable form logic and validation schemas</td>
-                  <td className="px-6 py-4 text-sm text-gray-700">Excellent - Custom hooks enable logic extraction and sharing</td>
-                  <td className="px-6 py-4 text-sm text-gray-700">Limited - Logic sharing through HOCs or render props</td>
-                </tr>
-
-                <tr className="hover:bg-gray-50">
-                  <td className="px-6 py-4 text-sm font-medium text-gray-900">
                     <strong>Learning Curve</strong>
                   </td>
                   <td className="px-6 py-4 text-sm text-gray-700">Moderate - Requires understanding of form patterns and validation</td>
@@ -121,14 +112,7 @@ function HomePage() {
                   <td className="px-6 py-4 text-sm text-gray-700">More complex - Requires class instance testing</td>
                 </tr>
 
-                <tr className="hover:bg-gray-50">
-                  <td className="px-6 py-4 text-sm font-medium text-gray-900">
-                    <strong>Bundle Size</strong>
-                  </td>
-                  <td className="px-6 py-4 text-sm text-gray-700">12.6kB (larger than React Hook Form's 5.2kB)</td>
-                  <td className="px-6 py-4 text-sm text-gray-700">No additional overhead</td>
-                  <td className="px-6 py-4 text-sm text-gray-700">No additional overhead</td>
-                </tr>
+
 
                 <tr className="hover:bg-gray-50">
                   <td className="px-6 py-4 text-sm font-medium text-gray-900">
